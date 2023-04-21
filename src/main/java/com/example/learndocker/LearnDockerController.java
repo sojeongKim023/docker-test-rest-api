@@ -15,4 +15,9 @@ public class LearnDockerController {
     public String name(String name){
         return "Hi My name is "+name+" !";
     }
+
+    @GetMapping("/age")
+    public String age(String age){
+        return "I`m "+age+" years old";
+    }
 }
