@@ -10,4 +10,9 @@ public class LearnDockerController {
     public String test(String test){
         return test+" HIHI DOCKER";
     }
+
+    @GetMapping("/name")
+    public String name(String name){
+        return "Hi My name is "+name+" !";
+    }
 }
