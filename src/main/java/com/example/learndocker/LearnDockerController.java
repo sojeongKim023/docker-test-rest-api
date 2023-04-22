@@ -20,4 +20,12 @@ public class LearnDockerController {
     public String age(String age){
         return "I`m "+age+" years old";
     }
+
+    @GetMapping("/hi")
+    public String hi(String hi){
+        return "HIHI ="+"Hi";
+    }
+
+
+
 }
